@@ -7,14 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4406C2381E750B240058CD02 /* quote.json in Resources */ = {isa = PBXBuildFile; fileRef = 4406C2371E750B230058CD02 /* quote.json */; };
+		442F84181E6D38AA0001E4C7 /* handleiSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F84171E6D38AA0001E4C7 /* handleiSound.swift */; };
+		4436AC111E8F6AE000A554E8 /* WeatherSevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436AC101E8F6AE000A554E8 /* WeatherSevices.swift */; };
+		4436AC131E8F6E1E00A554E8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436AC121E8F6E1E00A554E8 /* WeatherData.swift */; };
+		4436AC151E8FCB7C00A554E8 /* SlideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436AC141E8FCB7C00A554E8 /* SlideBarMenu.swift */; };
+		4436AC181E8FE43400A554E8 /* toanKhoaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436AC161E8FE43400A554E8 /* toanKhoaTableViewCell.swift */; };
+		4436AC191E8FE43400A554E8 /* toanKhoaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4436AC171E8FE43400A554E8 /* toanKhoaTableViewCell.xib */; };
+		443796651E86209300803C25 /* detailsTKBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443796641E86209300803C25 /* detailsTKBViewController.swift */; };
+		443796681E8620F800803C25 /* customDetailsTKBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443796661E8620F800803C25 /* customDetailsTKBTableViewCell.swift */; };
+		443796691E8620F800803C25 /* customDetailsTKBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443796671E8620F800803C25 /* customDetailsTKBTableViewCell.xib */; };
+		4438BCF21E835AE100E636FB /* extraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4438BCF01E835AE100E636FB /* extraTableViewCell.xib */; };
 		44391C8A1E6504BE006B7E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391C891E6504BE006B7E4B /* AppDelegate.swift */; };
-		44391C8C1E6504BE006B7E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391C8B1E6504BE006B7E4B /* ViewController.swift */; };
 		44391C8F1E6504BE006B7E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44391C8D1E6504BE006B7E4B /* Main.storyboard */; };
 		44391C921E6504BE006B7E4B /* TTCN_iSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44391C901E6504BE006B7E4B /* TTCN_iSocial.xcdatamodeld */; };
 		44391C941E6504BE006B7E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44391C931E6504BE006B7E4B /* Assets.xcassets */; };
 		44391C971E6504BE006B7E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44391C951E6504BE006B7E4B /* LaunchScreen.storyboard */; };
 		44391CA21E6504BE006B7E4B /* TTCN_iSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391CA11E6504BE006B7E4B /* TTCN_iSocialTests.swift */; };
 		44391CAD1E6504BE006B7E4B /* TTCN_iSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391CAC1E6504BE006B7E4B /* TTCN_iSocialUITests.swift */; };
+		44391CBC1E6545D4006B7E4B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391CBB1E6545D4006B7E4B /* loginViewController.swift */; };
+		44391CC51E65784C006B7E4B /* handleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391CC41E65784C006B7E4B /* handleLogin.swift */; };
+		44391CC71E657960006B7E4B /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44391CC61E657960006B7E4B /* request.swift */; };
+		443B53E61E94DFFB00AFE77A /* customNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B53E41E94DFFB00AFE77A /* customNoteTableViewCell.swift */; };
+		443B53E71E94DFFB00AFE77A /* customNoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443B53E51E94DFFB00AFE77A /* customNoteTableViewCell.xib */; };
+		444244331E86634700E51C32 /* handleDetailsTKB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444244321E86634700E51C32 /* handleDetailsTKB.swift */; };
+		4459031D1E91245C004279D6 /* tkb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459031C1E91245C004279D6 /* tkb.swift */; };
+		4459031F1E912467004279D6 /* note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459031E1E912467004279D6 /* note.swift */; };
+		44607FB11E77E19600BE4D80 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44607FB01E77E19600BE4D80 /* Songs.swift */; };
+		446235D51E79351300553A33 /* iSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446235D41E79351300553A33 /* iSoundViewController.swift */; };
+		446235DB1E79574D00553A33 /* configCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446235D91E79574D00553A33 /* configCellTableViewCell.swift */; };
+		446235DC1E79574D00553A33 /* configCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446235DA1E79574D00553A33 /* configCellTableViewCell.xib */; };
+		446236201E7A3B0700553A33 /* configSeachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462361E1E7A3B0700553A33 /* configSeachTableViewCell.swift */; };
+		446236211E7A3B0700553A33 /* configSeachTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4462361F1E7A3B0700553A33 /* configSeachTableViewCell.xib */; };
+		446ACD0D1E8D20A7009FC4F9 /* createNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446ACD0C1E8D20A7009FC4F9 /* createNoteViewController.swift */; };
+		44844DF21E8F4393007AFC0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44844DF11E8F4393007AFC0B /* GoogleService-Info.plist */; };
+		44844DF41E8F5070007AFC0B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44844DF31E8F5070007AFC0B /* ChatViewController.swift */; };
+		44844DF71E8F51F6007AFC0B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44844DF51E8F51F6007AFC0B /* Channel.swift */; };
+		44844DFA1E8F58AF007AFC0B /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44844DF91E8F58AF007AFC0B /* UIImage+Gif.swift */; };
+		4490FD661E962279007786ED /* allMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490FD651E962279007786ED /* allMusicViewController.swift */; };
+		4490FD681E96315A007786ED /* musicOnline.json in Resources */ = {isa = PBXBuildFile; fileRef = 4490FD671E96315A007786ED /* musicOnline.json */; };
+		4490FD6A1E9637CF007786ED /* customCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490FD691E9637CF007786ED /* customCellTableViewCell.swift */; };
+		4493D8161E66699A003899C7 /* navViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493D8151E66699A003899C7 /* navViewController.swift */; };
+		4493D8181E66A2D5003899C7 /* helperFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493D8171E66A2D5003899C7 /* helperFiles.swift */; };
+		4493D81B1E690395003899C7 /* TKBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493D81A1E690395003899C7 /* TKBViewController.swift */; };
+		4493D8211E690E59003899C7 /* handleTKB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493D8201E690E59003899C7 /* handleTKB.swift */; };
+		44C4E3871E6E938100035780 /* seachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4E3861E6E938100035780 /* seachViewController.swift */; };
+		44C4E38C1E6E981500035780 /* handleSeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4E38B1E6E981500035780 /* handleSeach.swift */; };
+		44D0D7A01E7AB08900B8E3F8 /* playerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0D79F1E7AB08900B8E3F8 /* playerViewController.swift */; };
+		44D0D7A21E7ABA1800B8E3F8 /* handleRowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0D7A11E7ABA1800B8E3F8 /* handleRowAction.swift */; };
+		44DC80AF1E8A84E900F23744 /* moreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC80AD1E8A84E900F23744 /* moreTableViewCell.swift */; };
+		44DC80B01E8A84E900F23744 /* moreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DC80AE1E8A84E900F23744 /* moreTableViewCell.xib */; };
+		44DC80B21E8A85B800F23744 /* iExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC80B11E8A85B800F23744 /* iExtraViewController.swift */; };
+		44DC80B41E8A868300F23744 /* hadleiMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC80B31E8A868300F23744 /* hadleiMore.swift */; };
+		44E9E8771E7D0B5B0044482A /* handlePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E8761E7D0B5B0044482A /* handlePlayerView.swift */; };
+		44E9E87E1E7D89DD0044482A /* iContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E87C1E7D89DD0044482A /* iContactViewController.swift */; };
+		44E9E8821E7D8ADC0044482A /* configContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E8801E7D8ADC0044482A /* configContactTableViewCell.swift */; };
+		44E9E8831E7D8ADC0044482A /* configContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E9E8811E7D8ADC0044482A /* configContactTableViewCell.xib */; };
+		44E9E8851E7E37720044482A /* handleContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E8841E7E37710044482A /* handleContact.swift */; };
+		44E9E8871E7ECECD0044482A /* contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E8861E7ECECD0044482A /* contacts.swift */; };
+		44E9E88B1E80378C0044482A /* deatilsContacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E88A1E80378C0044482A /* deatilsContacViewController.swift */; };
+		44E9E88D1E80AB0A0044482A /* createContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E88C1E80AB0A0044482A /* createContactViewController.swift */; };
+		44E9E8901E80AD330044482A /* handleCreateContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E88F1E80AD330044482A /* handleCreateContact.swift */; };
+		F9B40F287672474072D91CA1 /* Pods_TTCN_iSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379EED6D2270F461EDE15B38 /* Pods_TTCN_iSocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +89,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30EC8F110D4A761BFE2DB003 /* Pods-TTCN-iSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCN-iSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTCN-iSocial/Pods-TTCN-iSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		379EED6D2270F461EDE15B38 /* Pods_TTCN_iSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTCN_iSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4406C2371E750B230058CD02 /* quote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quote.json; sourceTree = "<group>"; };
+		442F84171E6D38AA0001E4C7 /* handleiSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleiSound.swift; sourceTree = "<group>"; };
+		4436AC101E8F6AE000A554E8 /* WeatherSevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherSevices.swift; sourceTree = "<group>"; };
+		4436AC121E8F6E1E00A554E8 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		4436AC141E8FCB7C00A554E8 /* SlideBarMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideBarMenu.swift; sourceTree = "<group>"; };
+		4436AC161E8FE43400A554E8 /* toanKhoaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toanKhoaTableViewCell.swift; sourceTree = "<group>"; };
+		4436AC171E8FE43400A554E8 /* toanKhoaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = toanKhoaTableViewCell.xib; sourceTree = "<group>"; };
+		443796641E86209300803C25 /* detailsTKBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsTKBViewController.swift; sourceTree = "<group>"; };
+		443796661E8620F800803C25 /* customDetailsTKBTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customDetailsTKBTableViewCell.swift; sourceTree = "<group>"; };
+		443796671E8620F800803C25 /* customDetailsTKBTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customDetailsTKBTableViewCell.xib; sourceTree = "<group>"; };
+		4438BCF01E835AE100E636FB /* extraTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = extraTableViewCell.xib; sourceTree = "<group>"; };
 		44391C861E6504BE006B7E4B /* TTCN-iSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTCN-iSocial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44391C891E6504BE006B7E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44391C8B1E6504BE006B7E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44391C8E1E6504BE006B7E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44391C911E6504BE006B7E4B /* TTCN_iSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTCN_iSocial.xcdatamodel; sourceTree = "<group>"; };
 		44391C931E6504BE006B7E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +115,50 @@
 		44391CA81E6504BE006B7E4B /* TTCN-iSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTCN-iSocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44391CAC1E6504BE006B7E4B /* TTCN_iSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCN_iSocialUITests.swift; sourceTree = "<group>"; };
 		44391CAE1E6504BE006B7E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44391CBB1E6545D4006B7E4B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		44391CC41E65784C006B7E4B /* handleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleLogin.swift; sourceTree = "<group>"; };
+		44391CC61E657960006B7E4B /* request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = request.swift; sourceTree = "<group>"; };
+		443B53E41E94DFFB00AFE77A /* customNoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customNoteTableViewCell.swift; sourceTree = "<group>"; };
+		443B53E51E94DFFB00AFE77A /* customNoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customNoteTableViewCell.xib; sourceTree = "<group>"; };
+		444244321E86634700E51C32 /* handleDetailsTKB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleDetailsTKB.swift; sourceTree = "<group>"; };
+		4459031C1E91245C004279D6 /* tkb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tkb.swift; sourceTree = "<group>"; };
+		4459031E1E912467004279D6 /* note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = note.swift; sourceTree = "<group>"; };
+		44607FB01E77E19600BE4D80 /* Songs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		446235D41E79351300553A33 /* iSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iSoundViewController.swift; sourceTree = "<group>"; };
+		446235D91E79574D00553A33 /* configCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configCellTableViewCell.swift; sourceTree = "<group>"; };
+		446235DA1E79574D00553A33 /* configCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = configCellTableViewCell.xib; sourceTree = "<group>"; };
+		4462361E1E7A3B0700553A33 /* configSeachTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configSeachTableViewCell.swift; sourceTree = "<group>"; };
+		4462361F1E7A3B0700553A33 /* configSeachTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = configSeachTableViewCell.xib; sourceTree = "<group>"; };
+		446ACD0C1E8D20A7009FC4F9 /* createNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createNoteViewController.swift; sourceTree = "<group>"; };
+		44844DF11E8F4393007AFC0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44844DF31E8F5070007AFC0B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		44844DF51E8F51F6007AFC0B /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		44844DF91E8F58AF007AFC0B /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		4490FD651E962279007786ED /* allMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = allMusicViewController.swift; sourceTree = "<group>"; };
+		4490FD671E96315A007786ED /* musicOnline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = musicOnline.json; sourceTree = "<group>"; };
+		4490FD691E9637CF007786ED /* customCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCellTableViewCell.swift; sourceTree = "<group>"; };
+		4493D8151E66699A003899C7 /* navViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navViewController.swift; sourceTree = "<group>"; };
+		4493D8171E66A2D5003899C7 /* helperFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helperFiles.swift; sourceTree = "<group>"; };
+		4493D81A1E690395003899C7 /* TKBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBViewController.swift; sourceTree = "<group>"; };
+		4493D8201E690E59003899C7 /* handleTKB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleTKB.swift; sourceTree = "<group>"; };
+		44C4E3861E6E938100035780 /* seachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seachViewController.swift; sourceTree = "<group>"; };
+		44C4E38B1E6E981500035780 /* handleSeach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleSeach.swift; sourceTree = "<group>"; };
+		44D0D79F1E7AB08900B8E3F8 /* playerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerViewController.swift; sourceTree = "<group>"; };
+		44D0D7A11E7ABA1800B8E3F8 /* handleRowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleRowAction.swift; sourceTree = "<group>"; };
+		44DC80AD1E8A84E900F23744 /* moreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreTableViewCell.swift; sourceTree = "<group>"; };
+		44DC80AE1E8A84E900F23744 /* moreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moreTableViewCell.xib; sourceTree = "<group>"; };
+		44DC80B11E8A85B800F23744 /* iExtraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iExtraViewController.swift; sourceTree = "<group>"; };
+		44DC80B31E8A868300F23744 /* hadleiMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hadleiMore.swift; sourceTree = "<group>"; };
+		44E9E8761E7D0B5B0044482A /* handlePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handlePlayerView.swift; sourceTree = "<group>"; };
+		44E9E87C1E7D89DD0044482A /* iContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iContactViewController.swift; sourceTree = "<group>"; };
+		44E9E8801E7D8ADC0044482A /* configContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configContactTableViewCell.swift; sourceTree = "<group>"; };
+		44E9E8811E7D8ADC0044482A /* configContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = configContactTableViewCell.xib; sourceTree = "<group>"; };
+		44E9E8841E7E37710044482A /* handleContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleContact.swift; sourceTree = "<group>"; };
+		44E9E8861E7ECECD0044482A /* contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contacts.swift; sourceTree = "<group>"; };
+		44E9E88A1E80378C0044482A /* deatilsContacViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deatilsContacViewController.swift; sourceTree = "<group>"; };
+		44E9E88C1E80AB0A0044482A /* createContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createContactViewController.swift; sourceTree = "<group>"; };
+		44E9E88F1E80AD330044482A /* handleCreateContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handleCreateContact.swift; sourceTree = "<group>"; };
+		77457997C341AFC2CCF85820 /* Pods-TTCN-iSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCN-iSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTCN-iSocial/Pods-TTCN-iSocial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B40F287672474072D91CA1 /* Pods_TTCN_iSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +187,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4138E1662AE66A7E72A15EAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30EC8F110D4A761BFE2DB003 /* Pods-TTCN-iSocial.debug.xcconfig */,
+				77457997C341AFC2CCF85820 /* Pods-TTCN-iSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4406C2391E758A200058CD02 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				44844DF11E8F4393007AFC0B /* GoogleService-Info.plist */,
+				4406C2371E750B230058CD02 /* quote.json */,
+				4490FD671E96315A007786ED /* musicOnline.json */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		442F84111E6D36AE0001E4C7 /* iSound */ = {
+			isa = PBXGroup;
+			children = (
+				446235D91E79574D00553A33 /* configCellTableViewCell.swift */,
+				442F84171E6D38AA0001E4C7 /* handleiSound.swift */,
+				446235D41E79351300553A33 /* iSoundViewController.swift */,
+				44C4E3881E6E96D100035780 /* seach */,
+				44E9E8751E7D0B420044482A /* playerView */,
+				4490FD6B1E9637EF007786ED /* AllPlay */,
+			);
+			name = iSound;
+			sourceTree = "<group>";
+		};
+		4437966A1E862A3100803C25 /* detailsView */ = {
+			isa = PBXGroup;
+			children = (
+				443796641E86209300803C25 /* detailsTKBViewController.swift */,
+				444244321E86634700E51C32 /* handleDetailsTKB.swift */,
+				443796661E8620F800803C25 /* customDetailsTKBTableViewCell.swift */,
+				443B53E41E94DFFB00AFE77A /* customNoteTableViewCell.swift */,
+			);
+			name = detailsView;
+			sourceTree = "<group>";
+		};
+		4438BCEE1E835AA900E636FB /* iExtra */ = {
+			isa = PBXGroup;
+			children = (
+				4436AC161E8FE43400A554E8 /* toanKhoaTableViewCell.swift */,
+				44DC80AD1E8A84E900F23744 /* moreTableViewCell.swift */,
+				44DC80B31E8A868300F23744 /* hadleiMore.swift */,
+				44DC80B11E8A85B800F23744 /* iExtraViewController.swift */,
+			);
+			name = iExtra;
+			sourceTree = "<group>";
+		};
 		44391C7D1E6504BE006B7E4B = {
 			isa = PBXGroup;
 			children = (
 				44391C881E6504BE006B7E4B /* TTCN-iSocial */,
-				44391CA01E6504BE006B7E4B /* TTCN-iSocialTests */,
-				44391CAB1E6504BE006B7E4B /* TTCN-iSocialUITests */,
-				44391C871E6504BE006B7E4B /* Products */,
+				44391CC01E6546F2006B7E4B /* Test */,
+				4138E1662AE66A7E72A15EAB /* Pods */,
+				451329AB896337F310EFFE04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +264,10 @@
 		44391C881E6504BE006B7E4B /* TTCN-iSocial */ = {
 			isa = PBXGroup;
 			children = (
-				44391C891E6504BE006B7E4B /* AppDelegate.swift */,
-				44391C8B1E6504BE006B7E4B /* ViewController.swift */,
-				44391C8D1E6504BE006B7E4B /* Main.storyboard */,
-				44391C931E6504BE006B7E4B /* Assets.xcassets */,
-				44391C951E6504BE006B7E4B /* LaunchScreen.storyboard */,
-				44391C981E6504BE006B7E4B /* Info.plist */,
-				44391C901E6504BE006B7E4B /* TTCN_iSocial.xcdatamodeld */,
+				44391CBF1E6546D4006B7E4B /* SupporttingFiles */,
+				44607FAF1E77E18300BE4D80 /* Model */,
+				44391CBE1E6546B2006B7E4B /* View */,
+				44391CBD1E6546A5006B7E4B /* Controller */,
 			);
 			path = "TTCN-iSocial";
 			sourceTree = "<group>";
@@ -128,6 +290,179 @@
 			path = "TTCN-iSocialUITests";
 			sourceTree = "<group>";
 		};
+		44391CBA1E6545C0006B7E4B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				44391CBB1E6545D4006B7E4B /* loginViewController.swift */,
+				44391CC41E65784C006B7E4B /* handleLogin.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		44391CBD1E6546A5006B7E4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4493D8191E66AEA4003899C7 /* main */,
+				4493D8141E66697D003899C7 /* nav */,
+				44391CBA1E6545C0006B7E4B /* login */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		44391CBE1E6546B2006B7E4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44391C8D1E6504BE006B7E4B /* Main.storyboard */,
+				4436AC171E8FE43400A554E8 /* toanKhoaTableViewCell.xib */,
+				4438BCF01E835AE100E636FB /* extraTableViewCell.xib */,
+				44391C951E6504BE006B7E4B /* LaunchScreen.storyboard */,
+				446235DA1E79574D00553A33 /* configCellTableViewCell.xib */,
+				4462361F1E7A3B0700553A33 /* configSeachTableViewCell.xib */,
+				44E9E8811E7D8ADC0044482A /* configContactTableViewCell.xib */,
+				443796671E8620F800803C25 /* customDetailsTKBTableViewCell.xib */,
+				443B53E51E94DFFB00AFE77A /* customNoteTableViewCell.xib */,
+				44DC80AE1E8A84E900F23744 /* moreTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		44391CBF1E6546D4006B7E4B /* SupporttingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4406C2391E758A200058CD02 /* Database */,
+				44391C931E6504BE006B7E4B /* Assets.xcassets */,
+				44391C891E6504BE006B7E4B /* AppDelegate.swift */,
+				44391C981E6504BE006B7E4B /* Info.plist */,
+				44391C901E6504BE006B7E4B /* TTCN_iSocial.xcdatamodeld */,
+				44391CC61E657960006B7E4B /* request.swift */,
+				4493D8171E66A2D5003899C7 /* helperFiles.swift */,
+				44D0D7A11E7ABA1800B8E3F8 /* handleRowAction.swift */,
+				44844DF91E8F58AF007AFC0B /* UIImage+Gif.swift */,
+				4436AC101E8F6AE000A554E8 /* WeatherSevices.swift */,
+			);
+			name = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		44391CC01E6546F2006B7E4B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				44391CA01E6504BE006B7E4B /* TTCN-iSocialTests */,
+				44391CAB1E6504BE006B7E4B /* TTCN-iSocialUITests */,
+				44391C871E6504BE006B7E4B /* Products */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		44607FAF1E77E18300BE4D80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4436AC121E8F6E1E00A554E8 /* WeatherData.swift */,
+				44844DF51E8F51F6007AFC0B /* Channel.swift */,
+				44607FB01E77E19600BE4D80 /* Songs.swift */,
+				44E9E8861E7ECECD0044482A /* contacts.swift */,
+				4459031C1E91245C004279D6 /* tkb.swift */,
+				4459031E1E912467004279D6 /* note.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		446235D61E793A6A00553A33 /* contact(loadmore-image-userfefault) */ = {
+			isa = PBXGroup;
+			children = (
+				44E9E87C1E7D89DD0044482A /* iContactViewController.swift */,
+				44E9E8841E7E37710044482A /* handleContact.swift */,
+				44E9E8801E7D8ADC0044482A /* configContactTableViewCell.swift */,
+				44E9E88A1E80378C0044482A /* deatilsContacViewController.swift */,
+				44E9E88E1E80ACBB0044482A /* create */,
+			);
+			name = "contact(loadmore-image-userfefault)";
+			sourceTree = "<group>";
+		};
+		447032CE1E8BA0BF0047DF53 /* iChat */ = {
+			isa = PBXGroup;
+			children = (
+				44844DF31E8F5070007AFC0B /* ChatViewController.swift */,
+			);
+			name = iChat;
+			sourceTree = "<group>";
+		};
+		4490FD6B1E9637EF007786ED /* AllPlay */ = {
+			isa = PBXGroup;
+			children = (
+				4490FD651E962279007786ED /* allMusicViewController.swift */,
+				4490FD691E9637CF007786ED /* customCellTableViewCell.swift */,
+			);
+			name = AllPlay;
+			sourceTree = "<group>";
+		};
+		4493D8141E66697D003899C7 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				4493D8151E66699A003899C7 /* navViewController.swift */,
+			);
+			name = nav;
+			sourceTree = "<group>";
+		};
+		4493D8191E66AEA4003899C7 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				4438BCEE1E835AA900E636FB /* iExtra */,
+				446235D61E793A6A00553A33 /* contact(loadmore-image-userfefault) */,
+				442F84111E6D36AE0001E4C7 /* iSound */,
+				4493D81D1E6903AB003899C7 /* TKB */,
+				447032CE1E8BA0BF0047DF53 /* iChat */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		4493D81D1E6903AB003899C7 /* TKB */ = {
+			isa = PBXGroup;
+			children = (
+				4493D81A1E690395003899C7 /* TKBViewController.swift */,
+				4493D8201E690E59003899C7 /* handleTKB.swift */,
+				446ACD0C1E8D20A7009FC4F9 /* createNoteViewController.swift */,
+				4437966A1E862A3100803C25 /* detailsView */,
+				4436AC141E8FCB7C00A554E8 /* SlideBarMenu.swift */,
+			);
+			name = TKB;
+			sourceTree = "<group>";
+		};
+		44C4E3881E6E96D100035780 /* seach */ = {
+			isa = PBXGroup;
+			children = (
+				44C4E3861E6E938100035780 /* seachViewController.swift */,
+				44C4E38B1E6E981500035780 /* handleSeach.swift */,
+				4462361E1E7A3B0700553A33 /* configSeachTableViewCell.swift */,
+			);
+			name = seach;
+			sourceTree = "<group>";
+		};
+		44E9E8751E7D0B420044482A /* playerView */ = {
+			isa = PBXGroup;
+			children = (
+				44D0D79F1E7AB08900B8E3F8 /* playerViewController.swift */,
+				44E9E8761E7D0B5B0044482A /* handlePlayerView.swift */,
+			);
+			name = playerView;
+			sourceTree = "<group>";
+		};
+		44E9E88E1E80ACBB0044482A /* create */ = {
+			isa = PBXGroup;
+			children = (
+				44E9E88C1E80AB0A0044482A /* createContactViewController.swift */,
+				44E9E88F1E80AD330044482A /* handleCreateContact.swift */,
+			);
+			name = create;
+			sourceTree = "<group>";
+		};
+		451329AB896337F310EFFE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379EED6D2270F461EDE15B38 /* Pods_TTCN_iSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +470,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44391CB11E6504BE006B7E4B /* Build configuration list for PBXNativeTarget "TTCN-iSocial" */;
 			buildPhases = (
+				FE884AD5C54E3DC7E5951686 /* [CP] Check Pods Manifest.lock */,
 				44391C821E6504BE006B7E4B /* Sources */,
 				44391C831E6504BE006B7E4B /* Frameworks */,
 				44391C841E6504BE006B7E4B /* Resources */,
+				CA07D4ACEEAF56D5579E2630 /* [CP] Embed Pods Frameworks */,
+				8D5E061DEC15E6EFFCB5E5E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +576,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4438BCF21E835AE100E636FB /* extraTableViewCell.xib in Resources */,
+				44E9E8831E7D8ADC0044482A /* configContactTableViewCell.xib in Resources */,
+				4436AC191E8FE43400A554E8 /* toanKhoaTableViewCell.xib in Resources */,
+				446236211E7A3B0700553A33 /* configSeachTableViewCell.xib in Resources */,
+				4406C2381E750B240058CD02 /* quote.json in Resources */,
+				44844DF21E8F4393007AFC0B /* GoogleService-Info.plist in Resources */,
 				44391C971E6504BE006B7E4B /* LaunchScreen.storyboard in Resources */,
+				443B53E71E94DFFB00AFE77A /* customNoteTableViewCell.xib in Resources */,
+				4490FD681E96315A007786ED /* musicOnline.json in Resources */,
 				44391C941E6504BE006B7E4B /* Assets.xcassets in Resources */,
+				443796691E8620F800803C25 /* customDetailsTKBTableViewCell.xib in Resources */,
 				44391C8F1E6504BE006B7E4B /* Main.storyboard in Resources */,
+				44DC80B01E8A84E900F23744 /* moreTableViewCell.xib in Resources */,
+				446235DC1E79574D00553A33 /* configCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +609,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D5E061DEC15E6EFFCB5E5E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCN-iSocial/Pods-TTCN-iSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA07D4ACEEAF56D5579E2630 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCN-iSocial/Pods-TTCN-iSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE884AD5C54E3DC7E5951686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44391C821E6504BE006B7E4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44391C8C1E6504BE006B7E4B /* ViewController.swift in Sources */,
+				4436AC131E8F6E1E00A554E8 /* WeatherData.swift in Sources */,
+				446ACD0D1E8D20A7009FC4F9 /* createNoteViewController.swift in Sources */,
+				44607FB11E77E19600BE4D80 /* Songs.swift in Sources */,
+				44391CBC1E6545D4006B7E4B /* loginViewController.swift in Sources */,
+				4459031D1E91245C004279D6 /* tkb.swift in Sources */,
+				44E9E8851E7E37720044482A /* handleContact.swift in Sources */,
+				44391CC51E65784C006B7E4B /* handleLogin.swift in Sources */,
+				4493D81B1E690395003899C7 /* TKBViewController.swift in Sources */,
+				44DC80B41E8A868300F23744 /* hadleiMore.swift in Sources */,
+				44D0D7A21E7ABA1800B8E3F8 /* handleRowAction.swift in Sources */,
+				44E9E8771E7D0B5B0044482A /* handlePlayerView.swift in Sources */,
+				44391CC71E657960006B7E4B /* request.swift in Sources */,
+				44E9E87E1E7D89DD0044482A /* iContactViewController.swift in Sources */,
+				446235D51E79351300553A33 /* iSoundViewController.swift in Sources */,
+				44D0D7A01E7AB08900B8E3F8 /* playerViewController.swift in Sources */,
 				44391C921E6504BE006B7E4B /* TTCN_iSocial.xcdatamodeld in Sources */,
+				44C4E38C1E6E981500035780 /* handleSeach.swift in Sources */,
+				44E9E8871E7ECECD0044482A /* contacts.swift in Sources */,
+				442F84181E6D38AA0001E4C7 /* handleiSound.swift in Sources */,
+				4490FD6A1E9637CF007786ED /* customCellTableViewCell.swift in Sources */,
+				4459031F1E912467004279D6 /* note.swift in Sources */,
+				44C4E3871E6E938100035780 /* seachViewController.swift in Sources */,
+				4493D8181E66A2D5003899C7 /* helperFiles.swift in Sources */,
+				446236201E7A3B0700553A33 /* configSeachTableViewCell.swift in Sources */,
+				4493D8161E66699A003899C7 /* navViewController.swift in Sources */,
+				44E9E88B1E80378C0044482A /* deatilsContacViewController.swift in Sources */,
+				443796681E8620F800803C25 /* customDetailsTKBTableViewCell.swift in Sources */,
+				44844DF71E8F51F6007AFC0B /* Channel.swift in Sources */,
+				4436AC151E8FCB7C00A554E8 /* SlideBarMenu.swift in Sources */,
+				44E9E8901E80AD330044482A /* handleCreateContact.swift in Sources */,
+				44DC80B21E8A85B800F23744 /* iExtraViewController.swift in Sources */,
+				44E9E8821E7D8ADC0044482A /* configContactTableViewCell.swift in Sources */,
+				44844DFA1E8F58AF007AFC0B /* UIImage+Gif.swift in Sources */,
+				4436AC181E8FE43400A554E8 /* toanKhoaTableViewCell.swift in Sources */,
 				44391C8A1E6504BE006B7E4B /* AppDelegate.swift in Sources */,
+				44DC80AF1E8A84E900F23744 /* moreTableViewCell.swift in Sources */,
+				446235DB1E79574D00553A33 /* configCellTableViewCell.swift in Sources */,
+				4490FD661E962279007786ED /* allMusicViewController.swift in Sources */,
+				444244331E86634700E51C32 /* handleDetailsTKB.swift in Sources */,
+				44E9E88D1E80AB0A0044482A /* createContactViewController.swift in Sources */,
+				443B53E61E94DFFB00AFE77A /* customNoteTableViewCell.swift in Sources */,
+				4493D8211E690E59003899C7 /* handleTKB.swift in Sources */,
+				4436AC111E8F6AE000A554E8 /* WeatherSevices.swift in Sources */,
+				44844DF41E8F5070007AFC0B /* ChatViewController.swift in Sources */,
+				443796651E86209300803C25 /* detailsTKBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +856,12 @@
 		};
 		44391CB21E6504BE006B7E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EC8F110D4A761BFE2DB003 /* Pods-TTCN-iSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2H7VRZNBB2;
 				INFOPLIST_FILE = "TTCN-iSocial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KaiJendo.TTCN-iSocial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +871,12 @@
 		};
 		44391CB31E6504BE006B7E4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77457997C341AFC2CCF85820 /* Pods-TTCN-iSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2H7VRZNBB2;
 				INFOPLIST_FILE = "TTCN-iSocial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KaiJendo.TTCN-iSocial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +961,7 @@
 				44391CB31E6504BE006B7E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44391CB41E6504BE006B7E4B /* Build configuration list for PBXNativeTarget "TTCN-iSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +970,7 @@
 				44391CB61E6504BE006B7E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44391CB71E6504BE006B7E4B /* Build configuration list for PBXNativeTarget "TTCN-iSocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +979,7 @@
 				44391CB91E6504BE006B7E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

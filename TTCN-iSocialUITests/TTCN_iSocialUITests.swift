@@ -1,5 +1,9 @@
 //
 //  TTCN_iSocialUITests.swift
+
+let app = XCUIApplication()
+
+
 //  TTCN-iSocialUITests
 //
 //  Created by Kai Jendo on 2/28/17.

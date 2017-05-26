@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailsView" id="KGk-i7-Jjw" customClass="customDetailsTKBTableViewCell" customModule="TTCN_iSocial" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dvA-cp-kEJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <color key="backgroundColor" red="0.91197502610000003" green="0.3506398201" blue="0.44902533290000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="subject name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cL9-3f-t4X">
+                        <rect key="frame" x="30" y="5" width="225" height="24"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.91197502613067627" green="0.35063982009887695" blue="0.44902533292770386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="teacher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vev-HV-K3E">
+                        <rect key="frame" x="30" y="26" width="46.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.25538228439999999" green="0.236506253" blue="0.56622350489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vva-fn-3eI">
+                        <rect key="frame" x="260" y="1" width="60" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="bIU-60-YwK"/>
+                            <constraint firstAttribute="height" constant="15" id="ntq-Te-X88"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" red="0.25538228439999999" green="0.236506253" blue="0.56622350489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="subjectClass" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qld-3W-ihR">
+                        <rect key="frame" x="240" y="26" width="80" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" red="0.25538228439999999" green="0.236506253" blue="0.56622350489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tkb" translatesAutoresizingMaskIntoConstraints="NO" id="Brq-Zs-U41">
+                        <rect key="frame" x="5" y="5" width="20" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="aIA-Lf-hn6"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vva-fn-3eI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="2Du-Y8-JLM"/>
+                    <constraint firstAttribute="bottom" secondItem="qld-3W-ihR" secondAttribute="bottom" constant="1" id="3gI-vl-XZ7"/>
+                    <constraint firstItem="Brq-Zs-U41" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="4Nx-cJ-fn4"/>
+                    <constraint firstItem="dvA-cp-kEJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="EGE-AT-gu1"/>
+                    <constraint firstAttribute="trailing" secondItem="vva-fn-3eI" secondAttribute="trailing" id="FMU-Jz-pjB"/>
+                    <constraint firstItem="dvA-cp-kEJ" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="ILk-im-rgC"/>
+                    <constraint firstItem="vva-fn-3eI" firstAttribute="centerY" secondItem="cL9-3f-t4X" secondAttribute="centerY" multiplier="0.5" id="OdE-go-4wI"/>
+                    <constraint firstItem="cL9-3f-t4X" firstAttribute="leading" secondItem="Brq-Zs-U41" secondAttribute="trailing" constant="5" id="RoM-Xu-mE9"/>
+                    <constraint firstItem="dvA-cp-kEJ" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="VHl-Kv-fKY"/>
+                    <constraint firstAttribute="bottom" secondItem="vev-HV-K3E" secondAttribute="bottom" constant="2" id="WSE-iq-qVq"/>
+                    <constraint firstItem="cL9-3f-t4X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XHH-lL-LwS"/>
+                    <constraint firstItem="dvA-cp-kEJ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="alN-4F-12D"/>
+                    <constraint firstItem="vva-fn-3eI" firstAttribute="leading" secondItem="cL9-3f-t4X" secondAttribute="trailing" constant="5" id="c5O-vX-wkK"/>
+                    <constraint firstItem="dvA-cp-kEJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="coc-qG-dJc"/>
+                    <constraint firstAttribute="bottom" secondItem="Brq-Zs-U41" secondAttribute="bottom" constant="5" id="fFX-fP-Ebo"/>
+                    <constraint firstItem="Brq-Zs-U41" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="hrU-xo-vXd"/>
+                    <constraint firstItem="vev-HV-K3E" firstAttribute="leading" secondItem="cL9-3f-t4X" secondAttribute="leading" id="j9d-3l-LUX"/>
+                    <constraint firstItem="qld-3W-ihR" firstAttribute="centerY" secondItem="vev-HV-K3E" secondAttribute="centerY" id="ldb-pE-PjQ"/>
+                    <constraint firstItem="dvA-cp-kEJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="n7o-jk-DAs"/>
+                    <constraint firstAttribute="trailing" secondItem="dvA-cp-kEJ" secondAttribute="trailing" id="nny-eq-5zP"/>
+                    <constraint firstAttribute="trailing" secondItem="qld-3W-ihR" secondAttribute="trailing" id="opT-nP-ZyC"/>
+                    <constraint firstAttribute="bottom" secondItem="dvA-cp-kEJ" secondAttribute="bottom" id="z8v-tp-7wg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgMode" destination="Brq-Zs-U41" id="hC0-Oc-2pZ"/>
+                <outlet property="lblSubjectClass" destination="qld-3W-ihR" id="Mqc-QL-UY3"/>
+                <outlet property="lblSubjectName" destination="cL9-3f-t4X" id="crB-Gz-jpd"/>
+                <outlet property="lblSubjectTime" destination="vva-fn-3eI" id="El7-ix-OUZ"/>
+                <outlet property="lblTeacher" destination="vev-HV-K3E" id="yot-wE-d6o"/>
+                <outlet property="myView" destination="dvA-cp-kEJ" id="AD6-91-muL"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tkb" width="22" height="73"/>
+    </resources>
+</document>

@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,14 +19,51 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-Qj-LdU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="YMU-uu-en3">
+                                <rect key="frame" x="59" y="156" width="202" height="142"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iSocial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRu-oR-UXO">
+                                <rect key="frame" x="113" y="313" width="95" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ⓒ by KaiJendo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQu-Id-qtZ">
+                                <rect key="frame" x="115" y="547" width="90" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZcQ-Qj-LdU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6nJ-5L-Jrm"/>
+                            <constraint firstItem="YMU-uu-en3" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="1/4" id="8XS-6f-1Na"/>
+                            <constraint firstItem="ZcQ-Qj-LdU" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Jec-yI-RqO"/>
+                            <constraint firstItem="YRu-oR-UXO" firstAttribute="top" secondItem="YMU-uu-en3" secondAttribute="bottom" constant="15" id="LgN-D2-aIJ"/>
+                            <constraint firstItem="ZcQ-Qj-LdU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="TEm-h6-nRh"/>
+                            <constraint firstItem="YMU-uu-en3" firstAttribute="centerX" secondItem="ZcQ-Qj-LdU" secondAttribute="centerX" id="W0B-0e-nyt"/>
+                            <constraint firstItem="YMU-uu-en3" firstAttribute="centerY" secondItem="ZcQ-Qj-LdU" secondAttribute="centerY" multiplier="0.8" id="aGV-Fx-aqN"/>
+                            <constraint firstItem="YRu-oR-UXO" firstAttribute="centerX" secondItem="YMU-uu-en3" secondAttribute="centerX" id="fsr-9Z-UgX"/>
+                            <constraint firstItem="ZcQ-Qj-LdU" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="gTw-nE-tpj"/>
+                            <constraint firstItem="TQu-Id-qtZ" firstAttribute="centerX" secondItem="ZcQ-Qj-LdU" secondAttribute="centerX" id="lSr-Hb-Nfn"/>
+                            <constraint firstItem="YMU-uu-en3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="59" id="mjK-L6-Otk"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="TQu-Id-qtZ" secondAttribute="bottom" constant="5" id="qgp-BL-V54"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-83" y="336"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="375" height="667"/>
+        <image name="logo" width="267" height="196"/>
+    </resources>
 </document>

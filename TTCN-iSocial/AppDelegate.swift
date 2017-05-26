@@ -8,16 +8,49 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    override func remoteControlReceived(with event: UIEvent?) {
+        switch event!.subtype {
+        case .remoteControlTogglePlayPause:
+            break;
+        case .remoteControlPreviousTrack:
+            playerViewController().changeSong(isNext: false)
+            playerViewController().setSong(songSelected: songSelected)
+            player.play()
+            break;
+        case .remoteControlNextTrack:
+            playerViewController().changeSong(isNext: true)
+            playerViewController().setSong(songSelected: songSelected)
+            player.play()
+            break;
+        case .remoteControlPlay:
+            player.play()
+            break;
+        case .remoteControlPause:
+            player.pause()
+            break;
+        default:break
+        }
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "reloadSubPlayer"), object: nil)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = UIColor.init(colorLiteralRed: 170, green: 135, blue: 184, alpha: 1)
+        UITabBar.appearance().tintColor = UIColor.purple
+        UITabBar.appearance().barTintColor = UIColor.white
+        FIRApp.configure()
         return true
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask(rawValue: UIInterfaceOrientationMask.portrait.rawValue)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
